@@ -1,0 +1,45 @@
+ControlBar{
+    layout: horizontal;
+    margin-top: 1;
+}
+ControlBar Input{
+    width: 18;
+}
+ControlBar Button{
+    margin-left: 1;
+    min-width: 0;
+}
+Select {
+    width: 10;
+}
+PlotextPlot {
+    width: 1fr;
+    height: 60%;
+}
+PowerStats{
+    layout: horizontal;
+    height: 6;
+}
+ValueDisplay{
+    layout: horizontal;
+    content-align: center middle;
+    padding-left: 1;
+    width: auto;
+}
+Digits{
+    border: double green;
+    width: auto;
+    content-align: center middle;
+    align: center middle;
+}
+
+ValueDisplay Label{
+    text-style: bold;
+    height: 5;
+    content-align: center middle;
+    color: yellowgreen;
+    padding-right: 1;
+}
+.hidden{
+    display: none;
+}
